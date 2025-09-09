@@ -16,9 +16,9 @@ const Banner = () => {
               whileInView="animate"
               className="text-4xl xl:text-5xl font-semibold text-black/80"
             >
-              Design is not what it looks like and feels like. Design is how{" "}
+              🚛 “Waste management is not about dumping. ”{" "}
               <br />
-              <span className="text-gray-400 ">It Works</span>
+              <span className="text-gray-400 ">It’s about how responsibly it works.</span>
             </motion.h1>
             <motion.button
               variants={slideUp(0.4)}
@@ -35,8 +35,8 @@ const Banner = () => {
                 whileInView="animate"
                 className="space-y-2"
               >
-                <p className="font-semibold text-lg">Design Tools</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                <p className="font-semibold text-lg">🛠️ Waste Sorting Tools </p>
+                <p>Use our smart guides and digital tools to learn how to properly segregate wet, dry, and e-waste for efficient recycling.</p>
               </motion.div>
               <motion.div
                 variants={slideUp(0.8)}
@@ -44,8 +44,8 @@ const Banner = () => {
                 whileInView="animate"
                 className="space-y-2"
               >
-                <p className="font-semibold text-lg">Design Tools</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                <p className="font-semibold text-lg">🌍 Recycling Awareness</p>
+                <p>Get tips on reducing plastic use, composting organic waste, and contributing to a cleaner environment.</p>
               </motion.div>
             </div>
           </div>

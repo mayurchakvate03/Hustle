@@ -6,27 +6,27 @@ import { slideBottom} from "../utility/animation";
 const NavbrLinks = [
   {
     id: 1,
-    title: "Home",
+    title: "Home 🏠",
     link: "/",
   },
   {
     id: 2,
-    title: "Features",
+    title: "Services ♻️",
     link: "#",
   },
   {
     id: 3,
-    title: "Shop",
+    title: "Schedule Pickup 🚛",
     link: "#",
   },
   {
     id: 4,
-    title: "About us",
+    title: "About Us ℹ️",
     link: "#",
   },
   {
     id: 5,
-    title: "Contact us",
+    title: "Contact Us 📞",
     link: "#",
   },
 ];
@@ -43,7 +43,7 @@ const Navbar = () => {
         {}
         <div className="flex items-center  gap-1">
           <img src={Logo} alt="" className="w-[70px]" />
-          <p className="font-bold text-2xl">HUSTLE</p>
+          <p className="font-bold text-2xl">Smart Waste Management System</p>
         </div>
         {}
         <div className="hidden md:block">
@@ -64,7 +64,7 @@ const Navbar = () => {
         </div>
         {}
         <div>
-          <button className="primary-btn">Request For Quots</button>
+          <button className="primary-btn">Contribute Today</button>
         </div>
       </motion.div>
     </>

@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../../assets/1.png";
+import HeroImage from "../../assets/12.png";
 import { motion } from "framer-motion";
 import { slideUp } from "../utility/animation";
 
@@ -15,21 +15,24 @@ const Hero = () => {
             animate="animate"
             className="text-4xl xl:text-5xl font-bold"
           >
-            Unlock a Passion ,Side Hustle ,or New{" "}
-            <span className="text-gray-400">Profession</span>
+            EcoCycle – Manage Waste,{" "}
+            <span className="text-gray-400">Save Earth</span>
           </motion.h1>
-          <motion.p   variants={slideUp(0.4)}
-            initial="initial"
-            animate="animate">
-            Join our community of learners and start your journey today. Whether
-            you're looking to turn a hobby into a side hustle or explore a new
-            profession, we have the resources and support you need to succeed.
+          <motion.p variants={slideUp(0.4)} initial="initial" animate="animate">
+            Join our community in building a cleaner, smarter future. With
+            RFID-powered waste tracking, our platform helps citizens,
+            businesses, and organizations monitor disposal, improve segregation,
+            and ensure responsible recycling. Together, we can make waste
+            management more efficient, transparent, and sustainable.
             {""}
           </motion.p>
-          <motion.button   variants={slideUp(0.6)}
+          <motion.button
+            variants={slideUp(0.6)}
             initial="initial"
-            animate="animate" className="primary-btn bg-gray-900 hover:bg-primary duration-300">
-            More News
+            animate="animate"
+            className="primary-btn bg-gray-900 hover:bg-primary duration-300"
+          >
+            Contribute Today
           </motion.button>
         </div>
         {}
@@ -38,13 +41,14 @@ const Hero = () => {
           <motion.img
             initial={{
               opacity: 0,
-              x:100,
+              x: 100,
             }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
             src={HeroImage}
             alt=""
-            className="w-[80%] md:w-[550px] xl:-[600px]"
+            className="rounded-xl
+             w-[80%] md:w-[550px] xl:-[600px]"
           />
         </div>
       </div>

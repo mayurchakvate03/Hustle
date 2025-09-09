@@ -30,7 +30,7 @@ const Banner2 = () => {
               whileInView="animate"
               className="uppercase"
             >
-              Tech addicts
+              🌟 Customer Testimonials
             </motion.p>
             <motion.h1
               variants={slideUp(0.4)}
@@ -38,8 +38,8 @@ const Banner2 = () => {
               whileInView="animate"
               className="text-4xl xl:text-5xl font-semibold text-black/80"
             >
-              They really understood our <br />
-              <span className="text-gray-400 ">Needs</span>
+              “Solutions to Build a <br />
+              <span className="text-gray-400 ">Cleaner Future”</span>
             </motion.h1>
             <motion.button
               variants={slideUp(0.6)}
@@ -47,7 +47,7 @@ const Banner2 = () => {
               whileInView="animate"
               className="primary-btn hover:bg-black  text-black hover:text-white duration-300"
             >
-              More News
+              Dispose Responsibly
             </motion.button>
           </div>
         </div>

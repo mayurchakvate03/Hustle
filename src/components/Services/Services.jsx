@@ -13,8 +13,8 @@ const Services = () => {
           className="py-12 flex justify-between items-center"
         >
           <h1 className="text-4xl xl:text-5xl font-bold max-w-[550px]">
-            Classes to Spark Your{" "}
-            <span className="text-gray-400 ">Creativity</span>
+            “Programs for Smarter Waste{" "}
+            <span className="text-gray-400 ">Management”</span>
           </h1>
           <p className="hidden md:block">
             Notified to Spark your <br></br>
@@ -31,7 +31,7 @@ const Services = () => {
             <img
               src={ServiceImg}
               alt=""
-              className="w-[300px] mx-auto md:max-w-[500px]"
+              className="rounded-lg w-[300px] mx-auto md:max-w-[500px]"
             />
           </motion.div>
           <motion.div
@@ -40,13 +40,13 @@ const Services = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="max-w-[300px] mx-auto space-y-4"
           >
-            <img src={ServiceImg} alt="" className="w-14" />
-            <p className="uppercase font-semibold text-xl">Learn By doing</p>
+            {/* <img src={ServiceImg} alt="" className="w-14" /> */}
+            <p className="uppercase font-semibold text-xl">
+              ♻️ Segregate at Source
+            </p>
             <p className="text-gray-500 pl-6 border-l-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Voluptates vel eaque ea dolorem voluptate, nesciunt mollitia
-              asperiores magnam? Assumenda perferendis optio dicta natus nobis,
-              cupiditate eveniet libero ratione quam iusto!
+              Proper waste management begins at home. Separate your wet, dry,
+              and e-waste to make recycling efficient and reduce landfill waste.
             </p>
           </motion.div>
           <motion.div
@@ -55,13 +55,14 @@ const Services = () => {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="max-w-[300px] mx-auto space-y-4"
           >
-            <img src={ServiceImg} alt="" className="w-14" />
-            <p className="uppercase font-semibold text-xl">Learn By doing</p>
+            {/* <img src={ServiceImg} alt="" className="w-14" /> */}
+            <p className="uppercase font-semibold text-xl">
+              🚛 Smart Collection
+            </p>
             <p className="text-gray-500 pl-6 border-l-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Voluptates vel eaque ea dolorem voluptate, nesciunt mollitia
-              asperiores magnam? Assumenda perferendis optio dicta natus nobis,
-              cupiditate eveniet libero ratione quam iusto!
+              Schedule pickups and track waste collection in real-time. Our
+              smart system ensures your waste is collected on time and disposed
+              responsibly.
             </p>
           </motion.div>
           <motion.div
@@ -70,13 +71,13 @@ const Services = () => {
             transition={{ duration: 0.5, delay: 0.8 }}
             className="max-w-[300px] mx-auto space-y-4"
           >
-            <img src={ServiceImg} alt="" className="w-14" />
-            <p className="uppercase font-semibold text-xl">Learn By doing</p>
+            {/* <img src={ServiceImg} alt="" className="w-14" /> */}
+            <p className="uppercase font-semibold text-xl">
+              🌍 Recycle & Reuse
+            </p>
             <p className="text-gray-500 pl-6 border-l-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Voluptates vel eaque ea dolorem voluptate, nesciunt mollitia
-              asperiores magnam? Assumenda perferendis optio dicta natus nobis,
-              cupiditate eveniet libero ratione quam iusto!
+              Join hands in creating a sustainable future. Reduce pollution by
+              recycling waste into useful products and reusing resources.
             </p>
           </motion.div>
         </div>
